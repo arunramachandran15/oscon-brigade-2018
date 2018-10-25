@@ -1,19 +1,19 @@
 const { events, Job, Group } = require('brigadier')
-console.log('Hello')
+
 events.on("push", (brigadeEvent, project) => {
     //variables
-    console.log("started push")
+    console.log("custom 0 started push")
 
 })
 
 events.on("exec", (brigadeEvent, project) => {
     //variables
-    console.log("started exec")
+    console.log("custom 1 started execi ")
 
 })
 
 events.on("myevent", (brigadeEvent, project) => {
     //variables
-    console.log("started myevent")
+    console.log(" custom 2 started myevent")
 
 })

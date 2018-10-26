@@ -3,7 +3,7 @@ const { events, Job, Group } = require('brigadier')
 events.on("push", (brigadeEvent, project) => {
     //variables
     console.log("custom 0 started push")
-      var node = new Job("Rarerunner")
+      var node = new Job("rarerunner")
 
       // We want our job to run the stock Docker Python 3 image
       node.image = "python:3"
